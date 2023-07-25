@@ -1,0 +1,11 @@
+O projeto Estacionamento utiliza um banco de dados compartilhado, um serviço da AWS RDS.
+
+- Package connection/Classe conexão: Faz a conexão do banco com o método getConnection e carregarPropriedades() para
+carregar as informações do banco. Essas informaçoes estão no arquivo db.properties, que está na pasta resources.
+
+-Package service/Classe UsuarioService: Classe usada para os métodos de inserção, atualização, vizualização e exclusão
+no banco de dados.
+
+-Package View/Classe UsuarioView: Classe responsável pelo menu e escolha do usuário.
+
+-Classe main: Responsável por rodar o projeto.
